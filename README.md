@@ -41,3 +41,7 @@ sudo chmod 600 /etc/netplan/*.yaml
 ```
 sudo netplan apply
 ```
+7. Проверьте пинг сети
+```
+sudo ping 192.168.1.2
+```
